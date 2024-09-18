@@ -39,7 +39,7 @@ int main() {
 void test_getInts(){
    int num = 0;
    cout << "Testing getInt functions:" << endl;
-   cout << endl << "Eneter the following:\n2\n6\n3" << endl;
+   cout << endl << "Enter the following:\n2\n6\n3" << endl;
    cout << "Enter an integer:\n> ";
    num = getInt(3, 5);
    cout << "You entered: " << num << endl;
